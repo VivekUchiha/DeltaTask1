@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/ll">
+
+    <TextView
+        android:id="@+id/headin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Infinity Stones Acquired"
+        android:textSize="36sp" />
+
+
+    <TextView
+        android:id="@+id/p"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Power"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Space"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Time"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Reality"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/so"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Soul"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+
+    <TextView
+        android:id="@+id/m"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Mind"
+        android:textSize="36sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/say"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="36sp"
+        android:text="Welcome Lord Thanos"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="Get an Infinity stone"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/rese"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:text="Reset" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="36sp"
+        android:visibility="gone"
+        android:text="YOU HAVE ACQUIRED ALL THE INFINITY STONES"
+        />
+
+
+
+</LinearLayout>
